@@ -2,7 +2,7 @@
   <!-- Logo -->
   <div class="logo">
     <a href="{{ route('index') }}">
-      <img src="/logo.png" alt="RefugeConnect">
+      <img src=" {{ asset('/logo.png') }}" alt="RefugeConnect">
     </a>
   </div>
 
