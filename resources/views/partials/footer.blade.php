@@ -1,3 +1,3 @@
 <footer>
-  <p>&copy; {{ echo date('Y'); }} - RefugeConnect</p>
+  <p>&copy; {{ date('Y'); }} - RefugeConnect</p>
 </footer>
