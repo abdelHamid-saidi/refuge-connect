@@ -7,9 +7,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [IndexController::class, 'index'])->name('index');
 
 Route::prefix('animal')->name('animal.')->group(function () {
-    Route::get('/add', [AnimalController::class, 'add'])->name('add');
-    Route::get('/edit/{id}', [AnimalController::class, 'edit'])->name('edit');
-    Route::get('/delete/{id}', [AnimalController::class, 'delete'])->name('delete');
+    Route::get('/creer', [AnimalController::class, 'add'])->name('add');
+    Route::get('/modifier/{id}', [AnimalController::class, 'edit'])->name('edit');
+    Route::get('/supprimer/{id}', [AnimalController::class, 'delete'])->name('delete');
     Route::get('/{id}', [AnimalController::class, 'show'])->name('show');
 });
 
