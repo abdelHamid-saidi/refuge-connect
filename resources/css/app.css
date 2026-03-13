@@ -61,11 +61,23 @@ main h1 {
 
 .animal-card {
     text-align: left;
-    font-size: 14px
+    font-size: 13px;
+    font-weight: 600;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.animal-card h3 {
+    font-size: 21px;
+    font-weight: 700;
 }
 
 .animal-card img {
     width: 100%;
+    border-radius: 4px;
+    height: 220px;
+    object-fit: cover;
 }
 
 .animal-card .href-cont {
@@ -77,13 +89,13 @@ main h1 {
 }
 
 .animal-card .href-cont a {
-    background-color: white;
+    background-color: #f5f8fa;
     text-align: center;
     text-decoration: none;
     color: #52c9ff;
     font-weight: 500;
     padding: 4px 8px;
-    border-radius: 3px;
+    border-radius: 4px;
 }
 
 
