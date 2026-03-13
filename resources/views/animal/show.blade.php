@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<h2>{{ $animal->name }}</h2>
+<h1>{{ $animal->name }}</h1>
 
 <div class="show-animal">
   <img src="/images/{{ $animal->photo }}" alt="{{ $animal->name }}" width="300">

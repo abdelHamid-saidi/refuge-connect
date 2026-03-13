@@ -4,7 +4,7 @@
         <img src="/images/{{ $animal->photo }}" alt="{{ $animal->name }}">
     </a>
 
-    <h3>{{ $animal->name }}</h3>
+    <h2>{{ $animal->name }}</h2>
 
     <p>Espèce : {{ $animal->species }}</p>
     <p>Age : {{ $animal->age }} ans</p>

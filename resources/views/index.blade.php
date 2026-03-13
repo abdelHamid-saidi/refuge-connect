@@ -4,7 +4,7 @@
 
 @section('content')
 
-  <h2>Nos animaux</h2>
+  <h1>Nos animaux</h1>
 
   <div class="animal-grid"> 
     @foreach($animals as $animal)
