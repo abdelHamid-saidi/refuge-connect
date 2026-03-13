@@ -1,10 +1,12 @@
 @extends('layouts.app')
 
+@section('title', $animal->name)
+
 @section('content')
 <h1>{{ $animal->name }}</h1>
 
 <div class="show-animal">
-  <img src="/images/{{ $animal->photo }}" alt="{{ $animal->name }}" width="300">
+  <img src="{{ asset('images/' . $animal->photo) }}" alt="{{ $animal->name }}" width="300">
 
   <div class="show-animal-cont">
     <p>Espèce : {{ $animal->species }}</p>

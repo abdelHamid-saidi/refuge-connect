@@ -1,7 +1,7 @@
 <div class="animal-card">
 
     <a href="{{ route('animal.show', $animal->id) }}">
-        <img src="/images/{{ $animal->photo }}" alt="{{ $animal->name }}">
+        <img src="{{ asset('images/' . $animal->photo) }}" alt="{{ $animal->name }}">
     </a>
 
     <h2>{{ $animal->name }}</h2>
